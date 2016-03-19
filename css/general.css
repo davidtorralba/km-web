@@ -370,11 +370,10 @@ iframe {
 	font-weight: 600;
 	margin: 0px auto;
 	padding: 0px;
-	width: 200px;
+	width: 208px;
 	height: 70px;
 	position: relative;
-	top: 50px;
-	left: 0px;
+	top: 50px;   /* 50 */
 	opacity: 0.8;
 	transition: 0.5s;
 	}
@@ -397,35 +396,24 @@ iframe {
 	}
 .idioma2 {
 	text-align: center;
-	width: 200px;
+	width: 208px;
 	height: 29px;
-	font-family: "Open Sans", sans;
 	font-size: 125%;
 	font-weight: 600;
-	margin: 0px;
-	padding: 0px;
 	position: absolute;
 	top: 18px;
-	left: 0px;
+	left: 1px;
 	opacity: 1;
 }
-.idioma2 h2,
-.idioma2 h3 {
-	width: 40%;
+.idioma3_a,
+.idioma3_b,
+.idioma3_c,
+.idioma3_d {
+	width: 14.7%;
 	height: 100%;
-	font-family: "Open Sans", sans;
 	font-size: 100%;
 	font-weight: 600;
-	margin: 0px;
-	padding: 0px;
-	position: absolute;
-	top: 0px;
-}
-.idioma2 h2 {
-	text-align: right;
-	right: 55%;
-}
-.idioma2 h3 {
-	text-align: left;
-	left: 55%;
+	text-align: center;
+	margin: 0px 5px;
+	display: inline-block;
 }

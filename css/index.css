@@ -201,35 +201,78 @@ body {
 /* --- IDIOMA ---------------------------------------------- */
 
 .idioma0 {
+	text-align: center;
+	color: #999999;
 	margin: 0px auto;
 	width: 100%;
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
-	z-index: 9999;
+	z-index: 1000;
 	}
+
+.idioma0 a:link,
+.idioma0 a:visited,
+.idioma0 a:hover,
+.idioma0 a:active {
+	text-decoration:none;
+	}
+
 .idioma1 {
+	background: url("../img/lang_background.svg");
 	font-family: "Open Sans", sans;
-	font-size: 15px;
+	font-size: 93.75%;
 	font-weight: 600;
 	margin: 0px auto;
-	line-height: 10px;
-	width: 200px;
+	padding: 0px;
+	width: 208px;
 	height: 70px;
+	position: relative;
+	top: 50px;   /* 50 */
+	opacity: 0.4;
+	transition: 0.5s;
+	}
+.idioma1:hover {
+	top: 20px;
+	opacity: 1;
+	transition: 0.2s;
 	}
 .idioma1 h1 {
+	width: 100px;
 	font-family: "Open Sans", sans;
-	font-size: 13px;
-	font-weight: 600;
-	margin: 0px auto;
-	}
-.idioma1 h2 {
-	font-family: "Open Sans", sans;
-	font-size: 20px;
-	font-weight: 600;
-	margin: 10px auto;
+	font-size: 62.5%;
+	font-weight: 400;
+	margin: 0px;
 	padding: 0px;
+	position: absolute;
+	top: 3px;
+	left: 50px;
+	opacity: 1;
 	}
+.idioma2 {
+	text-align: center;
+	width: 208px;
+	height: 29px;
+	font-size: 125%;
+	font-weight: 600;
+	position: absolute;
+	top: 18px;
+	left: 1px;
+	opacity: 1;
+}
+.idioma3_a,
+.idioma3_b,
+.idioma3_c,
+.idioma3_d {
+	width: 14.7%;
+	height: 100%;
+	font-size: 100%;
+	font-weight: 600;
+	text-align: center;
+	margin: 0px 5px;
+	display: inline-block;
+}
+
 
 
 /* --- LINKS ----------------------------------------------- */
