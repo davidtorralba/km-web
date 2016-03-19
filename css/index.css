@@ -1,9 +1,71 @@
+/* --- COLORS AND BACKGROUNDS ----------------------*/
+
+.logo line{
+	stroke: #555555;
+}
+.logo svg {
+	fill: #555555;
+}
+
+.vertical1 .texto_fijo,
+.vertical2 .texto_fijo,
+.vertical3 .texto_fijo {
+	color: #444444;
+	/*color: #2d3c4b;*/
+}
+
+.vertical1 .caja_girada:hover .texto_fijo,
+.vertical2 .caja_girada:hover .texto_fijo,
+.vertical3 .caja_girada:hover .texto_fijo {
+	/*color: rgba(0,0,0,1);*/
+	color: #222222;
+}
+
+
+.menu_subbox_1 {
+	background-color: #A8A8A8;
+}
+
+.menu_subbox_2 {
+	background-color: #D4D4D4;
+}
+
+.menu_subbox_3 {
+	background-color: #ffffff;
+}
+
+
+.idioma0,
+.idioma0 a:link,
+.idioma0 a:visited,
+.barra_de_navegacion a:link,				/* link sin visitar */
+.barra_de_navegacion a:visited{			/* link visitado */
+	color: #999999;
+}
+
+.idioma0 a:hover,
+.barra_de_navegacion a:hover,				/* ratón sobre link */
+.barra_de_navegacion a:active {			/* selected link */
+	color: #555555;
+}
+
+html {
+	/*background: url("../img/index_background.png");*/
+	background-color: rgb(230, 230, 230);
+}
+
+
+
+
+
+/* --- STRUCTURE ----------------- */
+
+
 html {
 	margin: 0px;
 	padding: 0px;
-	background: url("../img/index_background.png");
 	background-attachment: fixed;
-	}
+}
 body {
 	text-align: center;
 	color: white;
@@ -11,14 +73,23 @@ body {
 	margin: 0px auto;
 	padding: 0px;
 	position: relative;
-	}
-.menu {
+}
+.menu_box {
+	position: fixed;
+	top: 357px;
 	width: 600px;
 	height: 350px;
 	margin: 0px auto;
+	z-index: 0;
+}
+.menu_subbox {
 	position: fixed;
+	top: 707px;
 	bottom: 0px;
-	}
+	margin: 0px;
+	width: 600px;
+}
+
 .vertical1 {
 	background: url("../img/index_menu1.svg") no-repeat;
 	width: 265px;
@@ -81,46 +152,40 @@ body {
 	top: 107px;
   right: 142px;
   }
-.vertical1 .texto_fijo,
-.vertical2 .texto_fijo,
-.vertical3 .texto_fijo {
-	color: #2d3c4b;
-	/*color: #2d3c4b;*/
-  }
 .vertical1 .texto_oculto,
 .vertical2 .texto_oculto,
 .vertical3 .texto_oculto {
   opacity: 0;
   transition: all 0.25s ease-in-out 0s;
-  }
-/*
-.vertical1 .caja_girada:hover .texto_oculto,
-.vertical2 .caja_girada:hover .texto_oculto,
-.vertical3 .caja_girada:hover .texto_oculto {
-  color: #1b252e;
-  opacity: 1;
-  transition: opacity 0.15s ease-in-out 0s;
-  }
-.vertical1 .caja_girada:hover .texto_oculto,
-.vertical2 .caja_girada:hover .texto_oculto,
-.vertical3 .caja_girada:hover .texto_oculto {
-  color: #1b252e;
-  }*/
+}
 
-.vertical1 .caja_girada:hover .texto_fijo,
-.vertical2 .caja_girada:hover .texto_fijo,
-.vertical3 .caja_girada:hover .texto_fijo {
-	color: rgba(0,0,0,1);
-	}
+.menu_subbox_0,
+.menu_subbox_1,
+.menu_subbox_2,
+.menu_subbox_3 {
+	float: left;
+	height: 100%;
+}
+
+.menu_subbox_0 {
+	width: 37px;
+}
+.menu_subbox_1 {
+	width: 176px;
+}
+
+.menu_subbox_2,
+.menu_subbox_3 {
+	width: 175px;
+}
 
 .logo svg {
 	margin: 100px auto;
 	/*width:600;*/  /* puedes controlar el tamaño del logo con este parámetro */
-	fill: white;
 	opacity: 0.95;
 }
+
 .logo line{
-	stroke: white;
 	stroke-width: 1.7;
 	stroke-linejoin: round;
 	y1: 79.189925;
@@ -162,15 +227,9 @@ body {
 
 
 /* --- LINKS ----------------------------------------------- */
-.idioma0 a:link {
+.idioma0 a:link,
+.idioma0 a:visited,
+.idioma0 a:hover,
+.idioma0 a:active {
 	text-decoration:none;
-	color: #ffffff;
-	}
-.idioma0 a:visited {
-	text-decoration:none;
-	color: #ffffff;
-	}
-.idioma0 a:hover {
-	text-decoration:none;
-	color: #2d3c4b;
-	}
+}

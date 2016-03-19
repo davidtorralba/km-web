@@ -19,12 +19,12 @@ body {
 /* --- COLORS AND BACKGROUNDS ------------------------------ */
 html {
 	/*background: url("../img/index_background.png"); */
-	background-color: white;
+	background-color: #EAEAEA;
 	background-attachment: fixed;
 }
 
 body {
-	color: #909090;
+	color: rgb(113, 113, 113);
 }
 
 .barra_de_navegacion {
