@@ -226,19 +226,41 @@ form {
   line-height: 52px;
   /*background: none repeat scroll 0% 0% #000;*/
   opacity: 0.8;
-  z-index: 9999;
+  z-index: 99989;
   position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 1px 0px 2px #000;
+	text-align: center;
 }
-.barra_navegacion_der {
+.barra_de_navegacion_izq,
+.barra_de_navegacion_cen,
+.barra_de_navegacion_der {
+	margin: 0px;
+	padding: 0px;
+}
+.barra_de_navegacion_izq {
+	float:left;
+	text-align: left;
+}
+.barra_de_navegacion_der {
 	float: right;
-	}
+	text-align: right;
+	width: 385px;
+}
+.barra_de_navegacion_cen {
+	position: absolute;
+	top: 0px;
+	margin-left: 44%;
+	margin-right: 44%;
+	width: 12%;
+}
 .barra_de_navegacion a {
 	padding: 0px 15px;
-	display: inline-block;
-	}
+}
+.barra_de_navegacion_cen a {
+	padding: 0px;
+}
 
 .barra_de_navegacion a:link,				/* link sin visitar */
 .barra_de_navegacion a:visited,			/* link visitado */
