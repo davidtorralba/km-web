@@ -23,15 +23,15 @@
 
 
 .menu_subbox_1 {
-	background-color: #A8A8A8;
+	background-color: rgba(150,150,150,0.8);
 }
 
 .menu_subbox_2 {
-	background-color: #D4D4D4;
+	background-color: rgba(206,206,206,0.8);
 }
 
 .menu_subbox_3 {
-	background-color: #ffffff;
+	background-color: rgba(250,250,250,0.8);
 }
 
 
@@ -51,7 +51,7 @@
 
 html {
 	/*background: url("../img/index_background.png");*/
-	background-color: rgb(230, 230, 230);
+	/*background-attachment: fixed;*/
 }
 
 
@@ -64,7 +64,7 @@ html {
 html {
 	margin: 0px;
 	padding: 0px;
-	background-attachment: fixed;
+	background-color: rgb(230, 230, 230);
 }
 body {
 	text-align: center;
@@ -74,6 +74,17 @@ body {
 	padding: 0px;
 	position: relative;
 }
+
+.percha {
+	max-width: 1550px;
+	width: 100%;
+	min-width: 600px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
 .menu_box {
 	position: fixed;
 	top: 357px;
