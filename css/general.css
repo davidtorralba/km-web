@@ -14,7 +14,7 @@ html {
 body {
 	margin: 0px auto;
 	padding: 0px;
-	font-size: 1em;
+	font-size: 16px;
 	font-family: 'Open Sans', sans;
 }
 
@@ -43,7 +43,8 @@ body {
 }
 
 .catalogo_imagen {
-	background-color: rgba(128, 153, 149, 0.4);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .marco_imagen {
@@ -413,7 +414,7 @@ iframe {
 	width: 40%;
 	height: 100%;
 	font-family: "Open Sans", sans;
-	font-size: 20px;
+	font-size: 100%;
 	font-weight: 600;
 	margin: 0px;
 	padding: 0px;
