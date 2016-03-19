@@ -15,7 +15,7 @@ body {
 	margin: 0px auto;
 	padding: 0px;
 	font-size: 16px;
-	font-family: 'Open Sans', sans;
+	font-family: 'Open Sans', 'Signika', sans;
 }
 
 /* --- LINK STYLE OUT ---------------*/
@@ -34,7 +34,8 @@ html {
 }
 
 body {
-	color: #909090;
+	/*color: #909090;*/
+	color: #555555;
 }
 
 .barra_de_navegacion {
@@ -141,17 +142,25 @@ body {
 }
 
 .contact_block .phone {
-	fill: rgb(113, 113, 113);
+	fill: #423F3F;
 	stroke: none;
 }
 
 .contact_block .location path,
 .contact_block circle{
 	fill: none;
-	stroke: rgb(113, 113, 113);
+	stroke: #423F3F;
 }
 
-
+.gallery_link {
+	background-color: #333333;
+	padding: 11px;
+	color: white;
+	border-radius:22px;
+}
+.gallery_link:hover {
+	background-color: #111111;
+}
 /* --- MAIN ------------------------------------------------ */
 .main {
 	max-width: 700px;
@@ -166,7 +175,6 @@ body {
 .main p {
   text-align: center;
 	line-height: 1.6;
-	font-family: 'Open Sans', sans;
 	font-weight: 200;
 	font-size: 100%;
 	margin: 0px;
@@ -198,7 +206,6 @@ form {
 
 .contacto_etiqueta {
 	font-size: 100%;
-	font-family: 'Open Sans', sans;  	/* esto deberías pasarlo a contact_form */
 	font-weight: 200;									/* esto deberías pasarlo a contact_form */
 }
 
@@ -223,12 +230,15 @@ form {
 	padding: 0px 20px;
 	text-align: center;		/* Esto mantiene el sub1 centrado */
 	line-height: 1.6;
-	font-family: 'Open Sans', sans;
 	font-weight: 200;
 	font-size: 100%;
 }
 
 .catalogo_sub1 {
+	display: inline-block;
+}
+
+.galeria_sub1 {
 	display: inline-block;
 }
 
@@ -248,9 +258,14 @@ form {
 	border-radius: 20px;
 }
 
+.galeria_imagen{
+	width: 140px;
+	height: 200px;
+	/*border-radius: 20px;*/
+}
+
 .marco_imagen {
 	position: relative;
-	font-family: 'Open Sans', sans;
 	font-weight: 800;
 	font-size: 712.5%;
 	left: 0px;
@@ -259,6 +274,17 @@ form {
 	height: 200px;
 	z-index: 1000;
 	border-radius: 20px;
+}
+
+.galeria_marco_imagen {
+	position: relative;
+	font-weight: 800;
+	font-size: 500%;
+	left: 0px;
+	top: 0px;
+	width: 140px;
+	height: 200px;
+	z-index: 1000;
 }
 
 
@@ -289,8 +315,7 @@ iframe {
 /* --- BARRA DE NAVEGACIÓN --------------------------------- */
 
 .barra_de_navegacion {
-  font-family: "Open Sans",Arial,sans;
-	font-size: 106.5%; /* 17px */
+  font-size: 106.5%; /* 17px */
 	font-weight: 200;
   letter-spacing: 3px;
   padding: 0px 7px;
@@ -365,7 +390,6 @@ iframe {
 
 .idioma1 {
 	background: url("../img/lang_background.svg");
-	font-family: "Open Sans", sans;
 	font-size: 93.75%;
 	font-weight: 600;
 	margin: 0px auto;
@@ -384,7 +408,6 @@ iframe {
 	}
 .idioma1 h1 {
 	width: 100px;
-	font-family: "Open Sans", sans;
 	font-size: 62.5%;
 	font-weight: 400;
 	margin: 0px;

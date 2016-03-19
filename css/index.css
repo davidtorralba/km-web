@@ -68,6 +68,7 @@ html {
 }
 body {
 	text-align: center;
+	font-family: "Open Sans", "Signika", sans;
 	color: white;
 	width: 600px;
 	margin: 0px auto;
@@ -134,7 +135,6 @@ body {
 	}
 .caja_girada {
   text-align: right;
-  font-family: "Open Sans", sans;
 	font-size: 25px;
 	font-weight: 400;
   height: 50px;
@@ -220,7 +220,6 @@ body {
 
 .idioma1 {
 	background: url("../img/lang_background.svg");
-	font-family: "Open Sans", sans;
 	font-size: 93.75%;
 	font-weight: 600;
 	margin: 0px auto;
@@ -239,7 +238,6 @@ body {
 	}
 .idioma1 h1 {
 	width: 100px;
-	font-family: "Open Sans", sans;
 	font-size: 62.5%;
 	font-weight: 400;
 	margin: 0px;
