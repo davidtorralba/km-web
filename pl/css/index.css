@@ -50,18 +50,6 @@
 }
 
 html {
-	/*
-	background: url("../img/index_background.png");
-	background-attachment: fixed;
-	background-color: transparent;
-	background-repeat: repeat, no-repeat;
-	background-attachment: scroll, fixed;
-	background-position: 0% 0%, center center;
-	background-clip: border-box, border-box;
-	background-origin: padding-box, padding-box;
-	background-size: cover;
-	background-image: -moz-linear-gradient(right center , rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg');
-	*/
 	background: url('../img/index.jpg'); /* For browsers that do not support gradients */
 	background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* For Safari 5.1 to 6.0 */
 	background:      -o-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* For Opera 11.1 to 12.0 */
