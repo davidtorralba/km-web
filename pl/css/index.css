@@ -1,10 +1,10 @@
 /* --- COLORS AND BACKGROUNDS ----------------------*/
 
 .logo line{
-	stroke: #555555;
+	stroke: rgba(255,255,255,0.5);
 }
 .logo svg {
-	fill: #555555;
+	fill: rgba(255,255,255,0.5);
 }
 
 .vertical1 .texto_fijo,
@@ -51,11 +51,11 @@
 
 html {
 	background: url('../img/index.jpg'); /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* For Safari 5.1 to 6.0 */
-	background:      -o-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* For Opera 11.1 to 12.0 */
-	background:    -moz-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* For Firefox 3.6 to 15 */
-	background:         linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* Standard syntax */
-	background:     -ms-linear-gradient(right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), url('../img/index.jpg'); /* Standard syntax */
+	background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('../img/index.jpg'); /* For Safari 5.1 to 6.0 */
+	background:      -o-linear-gradient(right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('../img/index.jpg'); /* For Opera 11.1 to 12.0 */
+	background:    -moz-linear-gradient(right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('../img/index.jpg'); /* For Firefox 3.6 to 15 */
+	background:         linear-gradient(right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('../img/index.jpg'); /* Standard syntax */
+	background:     -ms-linear-gradient(right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), url('../img/index.jpg'); /* Standard syntax */
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
