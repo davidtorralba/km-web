@@ -38,21 +38,6 @@ body {
 	color: #555555;
 }
 
-body.pricing {
-	background: #ffffff url(../img/back1.png) no-repeat bottom center;
-	min-height: 700px;
-}
-
-body.about {
-	background: #ffffff url(../img/back2.png) no-repeat bottom center;
-	min-height: 700px;
-}
-
-body.contact {
-	background: #ffffff url(../img/back3.png) no-repeat top center;
-	min-height: 700px;
-}
-
 .barra_de_navegacion {
 	background: none repeat scroll 0% 0%;
 	background-color: #000000;
