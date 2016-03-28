@@ -167,8 +167,26 @@ body.contact {
 	stroke: #423F3F;
 }
 
+.moreinfo {
+	padding: 8px;
+}
+.moreinfo a {
+	background-color: #555555;
+	padding: 8px 15px;
+	color: white;
+	border-radius:22px;
+}
+.moreinfo a:hover {
+	background-color: #333333;
+}
+
+.gallery_link_parent {
+	margin-top: 20px;
+}
 .gallery_link {
 	background-color: #333333;
+	position: relative;
+	top: 8px;
 	padding: 11px;
 	color: white;
 	border-radius:22px;
@@ -264,7 +282,7 @@ form {
 .catalogo_bloque {
 	display: inline-block;
 	width: 150px;
-	/*height: 130px;*/
+	margin-bottom: 30px;
 }
 
 .catalogo_imagen{
@@ -302,6 +320,51 @@ form {
 	z-index: 1000;
 }
 
+.pricing_body_01 {
+	background-color: #dddddd;
+}
+.pricing_body_02 {
+	background-color: #eeeeee;
+}
+.pricing_body_01,
+.pricing_body_02 {
+	color: grey;
+	text-align: center;
+	font-weight: 200;
+	line-height: 200%;
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.pricing_body_01 h1,
+.pricing_body_02 h1 {
+	font-size: 200%;
+	font-weight: 200;
+	margin-top:0px;
+	margin-bottom: 35px;
+}
+.pricing_body_01 .ptext,
+.pricing_body_02 .ptext {
+	max-width: 720px;
+	margin: 0px auto 0px auto;
+}
+.up_button {
+	text-align: right;
+	font-size: 120%;
+	position: relative;
+	bottom: -20px;
+	right: 30px;
+}
+
+.up_button a:link,				/* link sin visitar */
+.up_button a:visited,			/* link visitado */
+.up_button a:hover,				/* ratón sobre link */
+.up_button a:active {			/* selected link */
+	text-decoration:none;
+	color: grey;
+}
 
 /* --- CONTACT --------------------------------------------- */
 .contact_block {

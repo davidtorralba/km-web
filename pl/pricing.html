@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 		<link rel="shortcut icon" href="img/ic.png">
 	</head>
-	<body class="pricing">
+	<body class="pricing" onresize="resize_container()" id="pricing_top">
 		<!-- BARRA DE NAVEGACIÓN -->
 		<div class="barra_de_navegacion">
 			<div class="barra_de_navegacion_izq">
@@ -22,20 +22,22 @@
 			</div>
 		</div>
 
-		<!-- MAIN -->
-		<div class="main">
-			<h1>OFERTA & CENA</h1>
-			<p>W naszej ofercie możecie Państwo znaleźć ubrania znanych marek takich jak:
-				<br>M&S, ZARA, LACOSTE, H&M, LEVI’S, GEORGE, BERSHKA, GAP oraz wiele innych firm.
-			</p>
-			<p>Nasz asortyment zawiera odzież damską, męską, młodzieżową  a także dziecięcą. Możecie państwo spotkać odzież z metką jak również biżuterię, paski, buty, torebki. </p>
-			<p>Nie prowadzimy sprzedaży pościeli, poduszek, książek oraz koców.</p>
+		<div id="pricing_main">
 
-			<p><span class="important">Cennik</span></p>
+			<!-- MAIN -->
+			<div class="main">
+				<h1>OFERTA & CENA</h1>
+				<p>W naszej ofercie możecie Państwo znaleźć ubrania znanych marek takich jak:
+					<br>M&S, ZARA, LACOSTE, H&M, LEVI’S, GEORGE, BERSHKA, GAP oraz wiele innych firm.
+				</p>
+				<p>Nasz asortyment zawiera odzież damską, męską, młodzieżową  a także dziecięcą. Możecie państwo spotkać odzież z metką jak również biżuterię, paski, buty, torebki. </p>
+				<p>Nie prowadzimy sprzedaży pościeli, poduszek, książek oraz koców.</p>
 
-			<p>Przedział wagowy jednego worka waha się od 8-15kg.
-			<p>Zapewniamy państwu stałe i pewne dostawy.</p>
-		</div>
+				<p><span class="important">Cennik</span></p>
+
+				<p>Przedział wagowy jednego worka waha się od 8-15kg.
+				<p>Zapewniamy państwu stałe i pewne dostawy.</p>
+			</div>
 
 		<!-- CATÁLOGO -->
 		<div class="catalogo_main">
@@ -57,38 +59,10 @@
 					</div>
 					<div class="catalogo_precio1">25.00</div>
 					<div class="catalogo_precio2">zł/kg</div>
-				</div>
-
-				<!-- WOMEN'S CLOTHING
-				<div class="catalogo_bloque">
-					<div class="catalogo_titulo">Odziez damska</div>
-					<div class="catalogo_imagen" style="background-image: url(img/women.jpg);">
-						<a href="#_" class="lightbox" id="lightbox_OPEN_2">
-							<img src="img/women.jpg">
-						</a>
-						<div class="marco_imagen">
-							<a href="#lightbox_OPEN_2">D</a>
-						</div>
-						<div class="catalogo_precio1">15.00</div>
-						<div class="catalogo_precio2">zł/kg</div>
+					<div class="moreinfo">
+						<a href="#note_out">more info</a>
 					</div>
 				</div>
-				-->
-				<!-- MEN'S CLOTHING
-				<div class="catalogo_bloque">
-					<div class="catalogo_titulo">Odziez meska</div>
-					<div class="catalogo_imagen" style="background-image: url(img/men.jpg);">
-						<a href="#_" class="lightbox" id="lightbox_OPEN_3">
-							<img src="img/men.jpg">
-						</a>
-						<div class="marco_imagen">
-							<a href="#lightbox_OPEN_3">M</a>
-						</div>
-					</div>
-					<div class="catalogo_precio1">15.00</div>
-					<div class="catalogo_precio2">zł/kg</div>
-				</div>
-				-->
 
 				<!-- CHILDREN'S CLOTHING -->
 				<div class="catalogo_bloque">
@@ -103,6 +77,9 @@
 					</div>
 					<div class="catalogo_precio1">15.00</div>
 					<div class="catalogo_precio2">zł/kg</div>
+					<div class="moreinfo">
+						<a href="#note_kid">more info</a>
+					</div>
 				</div>
 
 				<!-- MIXED CLOTHES -->
@@ -118,6 +95,9 @@
 					</div>
 					<div class="catalogo_precio1">10.50</div>
 					<div class="catalogo_precio2">zł/kg</div>
+					<div class="moreinfo">
+						<a href="#note_mix">more info</a>
+					</div>
 				</div>
 
 				<!-- GALLERY -->
@@ -131,6 +111,29 @@
 			</div>
 			<p><br><br><br></p>
 		</div>
+</div>
+		<div class="pricing_body_01" id="note_out">
+			<h1>Outlet</h1>
+			<div class="ptext">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum mattis nulla non luctus. Nunc semper nisl id gravida malesuada. Suspendisse condimentum blandit erat a elementum. Praesent tempor finibus dolor quis pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id ex consectetur, varius neque sit amet, faucibus massa. Fusce et lacinia sem.
+				<div class="up_button"><a href="#pricing_top">BACK</a></div>
+			</div>
+		</div>
+		<div class="pricing_body_02" id="note_kid">
+			<h1>Children's clothing</h1>
+			<div class="ptext">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum mattis nulla non luctus. Nunc semper nisl id gravida malesuada. Suspendisse condimentum blandit erat a elementum. Praesent tempor finibus dolor quis pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id ex consectetur, varius neque sit amet, faucibus massa. Fusce et lacinia sem.
+				<div class="up_button"><a href="#pricing_top">BACK</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="pricing_body_01" id="note_mix">
+		<h1>Mixed clothes</h1>
+		<div class="ptext">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum mattis nulla non luctus. Nunc semper nisl id gravida malesuada. Suspendisse condimentum blandit erat a elementum. Praesent tempor finibus dolor quis pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed id ex consectetur, varius neque sit amet, faucibus massa. Fusce et lacinia sem.
+			<div class="up_button"><a href="#pricing_top">BACK</a></div>
+		</div>
+	</div>
 
 		<!-- PESTAÑA DE IDIOMAS -->
 		<div class="idioma0">
@@ -145,5 +148,6 @@
 			</div>
 		</div>
 
+		<script  type="text/javascript" src="km.js"></script>
 	</body>
 </html>
