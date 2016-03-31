@@ -282,6 +282,39 @@ body {
 
 
 
+/* --- FB LINK --------------------------------------------- */
+.fb_link {
+	display: none;	/* remove this to show */
+	position: fixed;
+	bottom: 50px;		/* Use this for horizontal position */
+	left: 50px;			/* Use this for vertical position */
+	height: 58px;
+	width: 52px;
+	z-index: 1010;
+}
+.fb_link #peri{
+	position: absolute;
+	bottom: 0px;
+	right: -3px;
+	height: 58px;
+	transition: transform 0.4s;
+}
+.fb_link #peri:hover{
+	bottom: -5%;
+	right: -12%;
+	height: 111%;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	transition: transform 0.4s;
+}
+.fb_link #fb_img{
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+}
+
 /* --- LINKS ----------------------------------------------- */
 .idioma0 a:link,
 .idioma0 a:visited,
