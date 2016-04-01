@@ -284,7 +284,6 @@ body {
 
 /* --- FB LINK --------------------------------------------- */
 .fb_link {
-	display: none;	/* remove this to show */
 	position: fixed;
 	bottom: 50px;		/* Use this for horizontal position */
 	left: 50px;			/* Use this for vertical position */
